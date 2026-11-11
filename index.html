@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of a first-year B.Tech Artificial Intelligence & Data Science student at Sanjay Godawat University, Kolhapur. Showcasing foundational skills, projects, and learning journey in AI & software development.">
+  <meta name="keywords" content="AI & DS Student, Sanjay Godawat University, Kolhapur, Portfolio, Python, Web Development, Generative AI, First Year Engineering">
+  <meta name="author" content="AI & DS Student - Sanjay Godawat University">
+  <meta name="theme-color" content="#070B19">
+  <title>AI & Data Science Student | Sanjay Godawat University Portfolio</title>
+
+  <!-- Google Fonts: Inter & Outfit for modern, premium typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================================================================= -->
+  <!-- BACKGROUND DECORATIONS (Abstract glowing mesh gradients)         -->
+  <!-- ================================================================= -->
+  <div class="bg-glow bg-glow-1" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-2" aria-hidden="true"></div>
+  <div class="bg-glow bg-glow-3" aria-hidden="true"></div>
+  <div class="bg-grid-overlay" aria-hidden="true"></div>
+
+  <!-- ================================================================= -->
+  <!-- 1. NAVIGATION BAR                                                 -->
+  <!-- BEGINNER TIP: You can edit your logo name below in <span class="logo-text"> -->
+  <!-- ================================================================= -->
+  <header class="navbar-wrapper" id="header">
+    <nav class="navbar container" aria-label="Main Navigation">
+      <a href="#home" class="logo" aria-label="Home">
+        <span class="logo-symbol">&lt;AI.DS/&gt;</span>
+        <!-- EDIT YOUR NAME HERE -->
+        <span class="logo-text">Student<span class="gradient-text">.Portfolio</span></span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <ul class="nav-links" id="navLinks" role="list">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#learning" class="nav-link">Learning Journey</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- CTA in Navbar & Mobile Toggle -->
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-sm btn-outline nav-cta">Let's Connect</a>
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle navigation menu">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- =============================================================== -->
+    <!-- 2. HERO SECTION                                                 -->
+    <!-- =============================================================== -->
+    <section class="hero-section" id="home" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        
+        <!-- Left Hero Content -->
+        <div class="hero-content">
+          <div class="badge-pill" data-aos="fade-up">
+            <span class="badge-pulse"></span>
+            <span>🎓 1st Year B.Tech AI &amp; DS • Sanjay Godawat University</span>
+          </div>
+
+          <!-- Main Hero Heading -->
+          <h1 class="hero-title" id="hero-heading">
+            Hi, I'm a <br>
+            <span class="gradient-text">First-Year AI &amp; Data Science</span> <br>
+            Student.
+          </h1>
+
+          <p class="hero-description">
+            First-year engineering student at <strong>Sanjay Godawat University, Kolhapur</strong>. 
+            Passionate beginner learning the foundations of computer science, building problem-solving logic in Python, practicing web development basics, and exploring the future of artificial intelligence.
+          </p>
+
+          <!-- Action Buttons -->
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary" id="heroExploreBtn">
+              <span>My Projects Journey</span>
+              <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary" id="heroContactBtn">
+              <span>Contact Me</span>
+              <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Quick Metrics / Highlights -->
+          <div class="hero-highlights">
+            <div class="highlight-item">
+              <span class="highlight-number">B.Tech</span>
+              <span class="highlight-label">AI &amp; Data Science</span>
+            </div>
+            <div class="highlight-divider" aria-hidden="true"></div>
+            <div class="highlight-item">
+              <span class="highlight-number">1st Year</span>
+              <span class="highlight-label">Beginner Learner</span>
+            </div>
+            <div class="highlight-divider" aria-hidden="true"></div>
+            <div class="highlight-item">
+              <span class="highlight-number">Kolhapur</span>
+              <span class="highlight-label">Maharashtra, India</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Hero Visual: Abstract Tech Orb & Floating Info Cards (No photo used) -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="visual-orb-container">
+            <!-- Glowing gradient core -->
+            <div class="orb-core"></div>
+            <div class="orb-ring orb-ring-1"></div>
+            <div class="orb-ring orb-ring-2"></div>
+            <div class="orb-ring orb-ring-3"></div>
+
+            <!-- Central Tech Symbol (Geometric AI Canvas) -->
+            <div class="orb-center-card">
+              <div class="orb-center-icon">
+                <svg width="44" height="44" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+              </div>
+              <span class="orb-center-text">AI &amp; DS @ SGU</span>
+            </div>
+
+            <!-- Floating Badge 1: University -->
+            <div class="floating-badge badge-top-left">
+              <div class="badge-icon icon-purple">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div>
+                <div class="badge-title">Campus</div>
+                <div class="badge-subtitle">SGU Kolhapur</div>
+              </div>
+            </div>
+
+            <!-- Floating Badge 2: Coding & Logic -->
+            <div class="floating-badge badge-bottom-right">
+              <div class="badge-icon icon-blue">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div>
+                <div class="badge-title">Learning</div>
+                <div class="badge-subtitle">Python &amp; Web Basics</div>
+              </div>
+            </div>
+
+            <!-- Floating Badge 3: AI Learning -->
+            <div class="floating-badge badge-bottom-left">
+              <div class="badge-icon icon-cyan">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <path d="M12 6v6l4 2"></path>
+                </svg>
+              </div>
+              <div>
+                <div class="badge-title">Exploring</div>
+                <div class="badge-subtitle">AI &amp; Data Science</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =============================================================== -->
+    <!-- 3. ABOUT ME SECTION                                             -->
+    <!-- =============================================================== -->
+    <section class="section about-section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">01 // ABOUT ME</span>
+          <h2 class="section-title" id="about-heading">About <span class="gradient-text">Me</span></h2>
+          <p class="section-subtitle">
+            A first-year engineering student building strong foundations in programming, problem-solving, and AI concepts.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          
+          <!-- About Card: Personal Story -->
+          <div class="card about-main-card">
+            <div class="card-icon-header">
+              <div class="card-icon-wrap icon-blue">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="12" cy="7" r="4"></circle>
+                </svg>
+              </div>
+              <span class="card-badge">First-Year Student</span>
+            </div>
+
+            <h3 class="about-card-title">Curious Beginner on a Journey in Tech</h3>
+            
+            <p class="about-paragraph">
+              I am a first-year undergraduate student pursuing my <strong>B.Tech in Artificial Intelligence and Data Science (AI &amp; DS)</strong> at 
+              <strong>Sanjay Godawat University (SGU), Kolhapur, Maharashtra</strong>. As a complete beginner to computer science and programming, I am excited to learn how software and data shape the modern world.
+            </p>
+            <p class="about-paragraph">
+              Right now, my priority is building a clear, disciplined foundation in coding logic and computational thinking. I am actively learning <strong>Python programming</strong> along with front-end web fundamentals in <strong>HTML and CSS</strong>. I am fascinated by Artificial Intelligence and look forward to understanding its underlying mathematics, algorithms, and practical applications as my college coursework unfolds.
+            </p>
+            <p class="about-paragraph">
+              I believe in total transparency: I have not completed any projects, earned certifications, or received awards yet. Every day is an opportunity to practice syntax, solve beginner logic problems, and grow step by step.
+            </p>
+
+            <div class="about-callout">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="16" x2="12" y2="12"></line>
+                <line x1="12" y1="8" x2="12.01" y2="8"></line>
+              </svg>
+              <span><strong>My Learning Mindset:</strong> Every programmer starts from "Hello, World!". Focus on daily consistency, embrace mistakes as lessons, and master the basics first.</span>
+            </div>
+          </div>
+
+          <!-- Academic & Quick Facts Column -->
+          <div class="about-details-column">
+            
+            <!-- Quick Fact 1: University Info -->
+            <div class="card quick-fact-card">
+              <div class="fact-icon icon-purple">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <div>
+                <div class="fact-label">University</div>
+                <div class="fact-value">Sanjay Godawat University (SGU)</div>
+                <div class="fact-sub">Kolhapur, Maharashtra, India</div>
+              </div>
+            </div>
+
+            <!-- Quick Fact 2: Degree Program -->
+            <div class="card quick-fact-card">
+              <div class="fact-icon icon-blue">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                  <line x1="16" y1="13" x2="8" y2="13"></line>
+                  <line x1="16" y1="17" x2="8" y2="17"></line>
+                </svg>
+              </div>
+              <div>
+                <div class="fact-label">Program &amp; Academic Year</div>
+                <div class="fact-value">B.Tech - AI &amp; Data Science</div>
+                <div class="fact-sub">Academic Year: First Year (Beginner)</div>
+              </div>
+            </div>
+
+            <!-- Quick Fact 3: Core Interests -->
+            <div class="card quick-fact-card">
+              <div class="fact-icon icon-cyan">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                </svg>
+              </div>
+              <div>
+                <div class="fact-label">Current Focus</div>
+                <div class="fact-value">Programming Fundamentals</div>
+                <div class="fact-sub">Python syntax, problem-solving &amp; web basics</div>
+              </div>
+            </div>
+
+            <!-- Quick Fact 4: Current Ambition -->
+            <div class="card quick-fact-card">
+              <div class="fact-icon icon-green">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 14 14"></polyline>
+                </svg>
+              </div>
+              <div>
+                <div class="fact-label">Current Milestone Goal</div>
+                <div class="fact-value">Building Core Coding Fluency</div>
+                <div class="fact-sub">Mastering fundamentals &amp; building first mini projects</div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =============================================================== -->
+    <!-- 4. SKILLS SECTION                                               -->
+    <!-- Clearly marked with beginner / learning status labels          -->
+    <!-- =============================================================== -->
+    <section class="section skills-section" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">02 // SKILLS I AM LEARNING</span>
+          <h2 class="section-title" id="skills-heading">Skills &amp; <span class="gradient-text">Learning Path</span></h2>
+          <p class="section-subtitle">
+            An honest overview of foundational technologies I am actively studying, practicing, and exploring as a first-year student.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+          
+          <!-- Skill Card 1: Python -->
+          <div class="card skill-card">
+            <div class="skill-card-top">
+              <div class="skill-icon-box python-color">
+                <!-- Python SVG Icon -->
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2c2.76 0 5 2.24 5 5v2H9c-1.66 0-3 1.34-3 3v4c0 1.66 1.34 3 3 3h2v-2c0-2.76 2.24-5 5-5h8c1.66 0 3-1.34 3-3V7c0-2.76-2.24-5-5-5h-7z" opacity="0.3"></path>
+                  <path d="M12 2C8 2 6 3.5 6 6v2h6c1.1 0 2 .9 2 2v3H9c-2 0-4 1.5-4 4s2 4 4 4h2v-2c0-1.1.9-2 2-2h3c2 0 4-1.5 4-4s-2-4-4-4V6c0-2.5-2-4-6-4z"></path>
+                  <circle cx="9" cy="5" r="1"></circle>
+                  <circle cx="15" cy="19" r="1"></circle>
+                </svg>
+              </div>
+              <span class="skill-level-tag tag-learning">🌱 Currently Learning</span>
+            </div>
+
+            <h3 class="skill-name">Python Programming</h3>
+            <p class="skill-desc">
+              My core programming language for AI &amp; DS. Learning fundamental syntax, variables, data types, conditional statements, loops, basic functions, and problem-solving logic.
+            </p>
+
+            <div class="skill-topics">
+              <span class="topic-pill">Variables &amp; Data Types</span>
+              <span class="topic-pill">Conditionals &amp; Loops</span>
+              <span class="topic-pill">Basic Functions</span>
+              <span class="topic-pill">Problem Solving Basics</span>
+            </div>
+
+            <div class="skill-status-box">
+              <span class="status-indicator"></span>
+              <span class="status-text">Practicing basic coding and syntax daily</span>
+            </div>
+          </div>
+
+          <!-- Skill Card 2: HTML5 -->
+          <div class="card skill-card">
+            <div class="skill-card-top">
+              <div class="skill-icon-box html-color">
+                <!-- HTML5 SVG Icon -->
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 3l1.5 17L12 22l6.5-2L20 3H4z"></path>
+                  <path d="M16 7H8l.5 5h7l-.5 5-3.5 1-3.5-1-.2-2"></path>
+                </svg>
+              </div>
+              <span class="skill-level-tag tag-learning">🌱 Currently Learning</span>
+            </div>
+
+            <h3 class="skill-name">HTML5 (Web Structure)</h3>
+            <p class="skill-desc">
+              Learning how web pages are organized. Practicing semantic elements, headers, page structure, forms, and accessibility basics to construct clean web pages.
+            </p>
+
+            <div class="skill-topics">
+              <span class="topic-pill">Semantic Structure</span>
+              <span class="topic-pill">Page Layouts</span>
+              <span class="topic-pill">Forms &amp; Inputs</span>
+              <span class="topic-pill">Accessibility (a11y) Basics</span>
+            </div>
+
+            <div class="skill-status-box">
+              <span class="status-indicator"></span>
+              <span class="status-text">Learning foundational web structure</span>
+            </div>
+          </div>
+
+          <!-- Skill Card 3: CSS3 -->
+          <div class="card skill-card">
+            <div class="skill-card-top">
+              <div class="skill-icon-box css-color">
+                <!-- CSS3 SVG Icon -->
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 3l1.5 17L12 22l6.5-2L20 3H4z"></path>
+                  <path d="M16 7l-.5 4.5h-7L8 8h8z"></path>
+                  <path d="M8.5 14h6.5l-.5 4-2.5.7-2.5-.7-.2-2"></path>
+                </svg>
+              </div>
+              <span class="skill-level-tag tag-learning">🌱 Currently Learning</span>
+            </div>
+
+            <h3 class="skill-name">CSS3 (Web Styling)</h3>
+            <p class="skill-desc">
+              Learning how to style web pages and make them responsive. Exploring the CSS box model, colors, Flexbox layout, and basic media queries.
+            </p>
+
+            <div class="skill-topics">
+              <span class="topic-pill">Box Model</span>
+              <span class="topic-pill">Flexbox Basics</span>
+              <span class="topic-pill">Colors &amp; Gradients</span>
+              <span class="topic-pill">Responsive Design Intro</span>
+            </div>
+
+            <div class="skill-status-box">
+              <span class="status-indicator"></span>
+              <span class="status-text">Practicing styling and responsive layout basics</span>
+            </div>
+          </div>
+
+          <!-- Skill Card 4: Generative AI -->
+          <div class="card skill-card">
+            <div class="skill-card-top">
+              <div class="skill-icon-box genai-color">
+                <!-- AI / Sparkle SVG Icon -->
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+              </div>
+              <span class="skill-level-tag tag-learning">🌱 Currently Learning</span>
+            </div>
+
+            <h3 class="skill-name">Generative AI Concepts</h3>
+            <p class="skill-desc">
+              Exploring introductory generative AI concepts, understanding effective prompt framing, and learning how to use AI coding assistants responsibly to support learning.
+            </p>
+
+            <div class="skill-topics">
+              <span class="topic-pill">Prompting Basics</span>
+              <span class="topic-pill">LLM Fundamentals</span>
+              <span class="topic-pill">AI Coding Assistants</span>
+              <span class="topic-pill">Ethical AI Awareness</span>
+            </div>
+
+            <div class="skill-status-box">
+              <span class="status-indicator"></span>
+              <span class="status-text">Exploring AI tools to accelerate learning</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Additional Supporting Tools Bar -->
+        <div class="tools-strip card">
+          <div class="tools-strip-heading">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+              <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+            </svg>
+            <span>Developer Tools &amp; Environments I am Getting Started With:</span>
+          </div>
+          <div class="tools-badges">
+            <span class="tool-badge">Visual Studio Code (Editor)</span>
+            <span class="tool-badge">Git &amp; GitHub (Basics)</span>
+            <span class="tool-badge">Jupyter Notebooks</span>
+            <span class="tool-badge">Google Colab</span>
+            <span class="tool-badge">Browser Developer Tools</span>
+            <span class="tool-badge">Terminal / Command Line Basics</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =============================================================== -->
+    <!-- 5. MY PROJECTS JOURNEY SECTION                                  -->
+    <!-- Transparent & honest showcase for a first-year student.         -->
+    <!-- No fictional completed projects.                                -->
+    <!-- =============================================================== -->
+    <section class="section projects-section" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">03 // PRACTICAL WORK</span>
+          <h2 class="section-title" id="projects-heading">My Projects <span class="gradient-text">Journey</span></h2>
+          <p class="section-subtitle">
+            Turning foundational concepts into real code. Here is the honest status of my practical project journey.
+          </p>
+        </div>
+
+        <!-- Featured Journey Showcase Card -->
+        <div class="card projects-journey-card">
+          <div class="journey-badge-wrap">
+            <span class="journey-status-tag">
+              <span class="pulse-dot"></span>
+              <span>Learning In Progress</span>
+            </span>
+          </div>
+
+          <div class="journey-icon-wrap">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="16 18 22 12 16 6"></polyline>
+              <polyline points="8 6 2 12 8 18"></polyline>
+              <line x1="12" y1="2" x2="12" y2="6"></line>
+              <line x1="12" y1="18" x2="12" y2="22"></line>
+            </svg>
+          </div>
+
+          <h3 class="journey-headline">
+            &ldquo;<span class="quote-highlight">I'm currently learning and building my first projects. Stay tuned!</span>&rdquo;
+          </h3>
+
+          <p class="journey-desc">
+            As a first-year B.Tech AI &amp; Data Science student at Sanjay Godawat University, I am actively building my coding fundamentals, problem-solving habits, and mathematical foundations. Rather than showcasing fictional work, I want this space to reflect genuine projects as I write, test, and complete them.
+          </p>
+
+          <!-- 3-Stage Development Roadmap -->
+          <div class="journey-steps-grid">
+            <div class="journey-step-item">
+              <div class="journey-step-header">
+                <span class="step-number">Stage 01</span>
+                <h4 class="step-title">Core Fundamentals</h4>
+              </div>
+              <p class="step-text">
+                Practicing Python syntax, variables, data structures, and conditional logic daily through beginner exercises.
+              </p>
+            </div>
+
+            <div class="journey-step-item">
+              <div class="journey-step-header">
+                <span class="step-number">Stage 02</span>
+                <h4 class="step-title">Mini Practice Builds</h4>
+              </div>
+              <p class="step-text">
+                Writing command-line utilities, simple calculators, and foundational HTML &amp; CSS responsive web layouts.
+              </p>
+            </div>
+
+            <div class="journey-step-item">
+              <div class="journey-step-header">
+                <span class="step-number">Stage 03</span>
+                <h4 class="step-title">First Real Projects</h4>
+              </div>
+              <p class="step-text">
+                Building upcoming semester projects in Python and introductory data exploration with open-source datasets.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Upcoming Learning Projects Grid -->
+        <div class="projects-grid" id="projectsGrid">
+          
+          <!-- UPCOMING PROJECT 1: Python CLI & Logic Utility -->
+          <article class="card project-card placeholder-card">
+            <div class="project-card-header">
+              <div class="project-type-tag tag-placeholder">⏳ In Progress / Upcoming</div>
+              <div class="project-category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <polyline points="4 17 10 11 4 5"></polyline>
+                  <line x1="12" y1="19" x2="20" y2="19"></line>
+                </svg>
+              </div>
+            </div>
+
+            <h3 class="project-title">Python Logic &amp; Math Utilities</h3>
+            
+            <p class="project-desc">
+              <em>(Planned Learning Build)</em> A collection of beginner Python command-line tools including student grade calculators, number theory scripts, and interactive console exercises to solidify programming logic.
+            </p>
+
+            <div class="project-tech-tags">
+              <span class="tech-tag">Python 3</span>
+              <span class="tech-tag">Control Flow</span>
+              <span class="tech-tag">Functions</span>
+              <span class="tech-tag">CLI Basics</span>
+            </div>
+
+            <div class="project-links">
+              <span class="placeholder-notice">🛠️ Writing &amp; testing initial practice code</span>
+            </div>
+          </article>
+
+          <!-- UPCOMING PROJECT 2: Interactive Web Mini-App -->
+          <article class="card project-card placeholder-card">
+            <div class="project-card-header">
+              <div class="project-type-tag tag-placeholder">⏳ In Progress / Upcoming</div>
+              <div class="project-category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+            </div>
+
+            <h3 class="project-title">Responsive Web Mini-Apps</h3>
+            
+            <p class="project-desc">
+              <em>(Planned Learning Build)</em> Front-end mini-utilities applying semantic HTML5 structure, modern CSS Flexbox and Grid styling, and foundational JavaScript DOM interactions for student productivity.
+            </p>
+
+            <div class="project-tech-tags">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript (DOM)</span>
+              <span class="tech-tag">Responsive Web</span>
+            </div>
+
+            <div class="project-links">
+              <span class="placeholder-notice">🛠️ Layout prototypes &amp; exercises in progress</span>
+            </div>
+          </article>
+
+          <!-- UPCOMING PROJECT 3: Introductory Data Exploration -->
+          <article class="card project-card placeholder-card">
+            <div class="project-card-header">
+              <div class="project-type-tag tag-placeholder">⏳ In Progress / Upcoming</div>
+              <div class="project-category-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                </svg>
+              </div>
+            </div>
+
+            <h3 class="project-title">Exploratory Data Analysis with Python</h3>
+            
+            <p class="project-desc">
+              <em>(Planned Learning Build)</em> Introductory data analysis notebooks examining real-world public datasets, calculating basic statistics, and creating visual charts as coursework progresses.
+            </p>
+
+            <div class="project-tech-tags">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Jupyter</span>
+              <span class="tech-tag">Data Handling</span>
+              <span class="tech-tag">Intro Analytics</span>
+            </div>
+
+            <div class="project-links">
+              <span class="placeholder-notice">🛠️ Studying foundational data libraries</span>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Student Transparency Banner -->
+        <div class="student-tip-banner">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+          </svg>
+          <span><strong>Portfolio Promise:</strong> All future projects will be open-sourced with GitHub repositories and live links as soon as they are completed. Stay tuned as I progress through my engineering journey!</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =============================================================== -->
+    <!-- 6. LEARNING JOURNEY & GOALS SECTION                             -->
+    <!-- Honest overview of current academic goals and roadmap.           -->
+    <!-- No fake certificates, awards, or work experience.               -->
+    <!-- =============================================================== -->
+    <section class="section learning-section" id="learning" aria-labelledby="learning-heading">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">04 // LEARNING ROADMAP</span>
+          <h2 class="section-title" id="learning-heading">Learning <span class="gradient-text">Journey</span></h2>
+          <p class="section-subtitle">
+            An honest look at my current semester milestones, learning roadmap, and technical goals as a first-year student.
+          </p>
+        </div>
+
+        <div class="achievements-grid">
+          
+          <!-- Milestone 1: University Admission (Real Milestone) -->
+          <div class="card achievement-card">
+            <div class="achievement-icon-wrap icon-purple">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+            </div>
+            <div class="achievement-content">
+              <div class="achievement-meta">
+                <span class="achievement-badge badge-milestone">Academic Milestone</span>
+                <span class="achievement-date">2025 – Present</span>
+              </div>
+              <h3 class="achievement-title">Admitted to B.Tech Artificial Intelligence &amp; Data Science</h3>
+              <p class="achievement-issuer">Sanjay Godawat University, Kolhapur, Maharashtra</p>
+              <p class="achievement-desc">
+                Enrolled in the undergraduate engineering program, beginning my formal training in computational logic, programming, mathematics, and foundational computer science.
+              </p>
+              <div class="skill-topics">
+                <span class="topic-pill">Undergraduate Program</span>
+                <span class="topic-pill">1st Year Student</span>
+                <span class="topic-pill">Kolhapur Campus</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Goal 1: Python Mastery -->
+          <div class="card achievement-card">
+            <div class="achievement-icon-wrap icon-blue">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <div class="achievement-content">
+              <div class="achievement-meta">
+                <span class="achievement-badge badge-milestone">Goal 01 // Programming</span>
+                <span class="achievement-date">Active Semester Goal</span>
+              </div>
+              <h3 class="achievement-title">Mastering Python &amp; Algorithmic Logic</h3>
+              <p class="achievement-issuer">Focus: Syntax, Loops, Functions &amp; Logic Building</p>
+              <p class="achievement-desc">
+                Building fluency in Python through consistent practice. Focusing on variables, control flow, loops, fundamental data structures (lists, tuples, dictionaries), and writing modular functions.
+              </p>
+              <div class="skill-topics">
+                <span class="topic-pill">Python Fundamentals</span>
+                <span class="topic-pill">Control Flow</span>
+                <span class="topic-pill">Data Structures</span>
+                <span class="topic-pill">Problem Solving</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Goal 2: Front-End Web Basics -->
+          <div class="card achievement-card">
+            <div class="achievement-icon-wrap icon-cyan">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <div class="achievement-content">
+              <div class="achievement-meta">
+                <span class="achievement-badge badge-milestone">Goal 02 // Web Basics</span>
+                <span class="achievement-date">Active Practice</span>
+              </div>
+              <h3 class="achievement-title">Understanding Front-End Web Fundamentals</h3>
+              <p class="achievement-issuer">Focus: Semantic HTML5, CSS3 &amp; Responsive Layouts</p>
+              <p class="achievement-desc">
+                Learning how clean web pages are constructed and styled. Mastering semantic HTML elements, CSS box model, Flexbox and Grid layouts, and ensuring pages adapt well across screen sizes.
+              </p>
+              <div class="skill-topics">
+                <span class="topic-pill">Semantic HTML5</span>
+                <span class="topic-pill">CSS Flexbox &amp; Grid</span>
+                <span class="topic-pill">Responsive Design</span>
+                <span class="topic-pill">Web Accessibility</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Goal 3: Mathematics & Statistics -->
+          <div class="card achievement-card">
+            <div class="achievement-icon-wrap icon-green">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="12" y1="8" x2="12" y2="12"></line>
+                <line x1="12" y1="16" x2="12.01" y2="16"></line>
+              </svg>
+            </div>
+            <div class="achievement-content">
+              <div class="achievement-meta">
+                <span class="achievement-badge badge-milestone">Goal 03 // Academic Core</span>
+                <span class="achievement-date">Coursework Integration</span>
+              </div>
+              <h3 class="achievement-title">Mathematics &amp; Statistics for AI &amp; DS</h3>
+              <p class="achievement-issuer">Focus: Linear Algebra, Calculus &amp; Probability</p>
+              <p class="achievement-desc">
+                Strengthening mathematical foundations essential for future machine learning and data science coursework. Focusing on matrices, vectors, basic calculus, and fundamental probability distributions.
+              </p>
+              <div class="skill-topics">
+                <span class="topic-pill">Linear Algebra</span>
+                <span class="topic-pill">Calculus Basics</span>
+                <span class="topic-pill">Discrete Mathematics</span>
+                <span class="topic-pill">Probability Intro</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Goal 4: Data Exploration & AI -->
+          <div class="card achievement-card">
+            <div class="achievement-icon-wrap icon-purple">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+            </div>
+            <div class="achievement-content">
+              <div class="achievement-meta">
+                <span class="achievement-badge badge-milestone">Goal 04 // Future Readiness</span>
+                <span class="achievement-date">Upcoming Milestone</span>
+              </div>
+              <h3 class="achievement-title">Exploring Data Handling &amp; Generative AI Tools</h3>
+              <p class="achievement-issuer">Focus: Python Libraries, Jupyter &amp; Generative AI</p>
+              <p class="achievement-desc">
+                Taking first steps in analyzing data using Python libraries, working in Jupyter Notebooks, and exploring modern Generative AI tools and prompt techniques ethically and responsibly.
+              </p>
+              <div class="skill-topics">
+                <span class="topic-pill">Jupyter Notebooks</span>
+                <span class="topic-pill">Data Handling Intro</span>
+                <span class="topic-pill">Generative AI Tools</span>
+                <span class="topic-pill">Ethical AI Awareness</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Goal 5: Developer Workflow -->
+          <div class="card achievement-card">
+            <div class="achievement-icon-wrap icon-blue">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+            </div>
+            <div class="achievement-content">
+              <div class="achievement-meta">
+                <span class="achievement-badge badge-milestone">Goal 05 // Essential Habits</span>
+                <span class="achievement-date">Continuous Workflow</span>
+              </div>
+              <h3 class="achievement-title">Version Control &amp; Developer Tooling</h3>
+              <p class="achievement-issuer">Focus: Git, GitHub &amp; Terminal Navigation</p>
+              <p class="achievement-desc">
+                Cultivating good software habits from year one: tracking code with Git commits, managing repositories on GitHub, and becoming comfortable with the terminal and modern code editors.
+              </p>
+              <div class="skill-topics">
+                <span class="topic-pill">Git Version Control</span>
+                <span class="topic-pill">GitHub Repos</span>
+                <span class="topic-pill">VS Code Setup</span>
+                <span class="topic-pill">Terminal Basics</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =============================================================== -->
+    <!-- 7. CONTACT SECTION                                              -->
+    <!-- All placeholders clearly labeled. No invented personal info.    -->
+    <!-- =============================================================== -->
+    <section class="section contact-section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">05 // GET IN TOUCH</span>
+          <h2 class="section-title" id="contact-heading">Let's <span class="gradient-text">Connect</span></h2>
+          <p class="section-subtitle">
+            Open to student study groups, mentorship, collaborative projects, and tech conversations.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          
+          <!-- Contact Info Cards -->
+          <div class="contact-info-column">
+            
+            <div class="card contact-card">
+              <h3 class="contact-card-title">Reach Out Directly</h3>
+              <p class="contact-card-text">
+                Feel free to connect with me for first-year collaborations, sharing resources on AI &amp; Data Science, or tech feedback.
+              </p>
+
+              <div class="contact-items-list">
+                
+                <!-- Email Placeholder with Copy Feature -->
+                <div class="contact-item">
+                  <div class="contact-icon icon-blue">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                      <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                  </div>
+                  <div class="contact-item-info">
+                    <span class="contact-item-label">Email (Editable Placeholder)</span>
+                    <a href="mailto:your.email@example.com" class="contact-item-value" id="emailLink">your.email@example.com</a>
+                  </div>
+                  <button class="btn btn-icon-only" id="copyEmailBtn" aria-label="Copy email address" title="Copy email address">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                      <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                    </svg>
+                  </button>
+                </div>
+
+                <!-- GitHub Placeholder -->
+                <div class="contact-item">
+                  <div class="contact-icon icon-purple">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                  </div>
+                  <div class="contact-item-info">
+                    <span class="contact-item-label">GitHub (Editable Placeholder)</span>
+                    <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer" class="contact-item-value">github.com/your-username</a>
+                  </div>
+                </div>
+
+                <!-- LinkedIn Placeholder -->
+                <div class="contact-item">
+                  <div class="contact-icon icon-cyan">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                      <rect x="2" y="9" width="4" height="12"></rect>
+                      <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                  </div>
+                  <div class="contact-item-info">
+                    <span class="contact-item-label">LinkedIn (Editable Placeholder)</span>
+                    <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" class="contact-item-value">linkedin.com/in/your-profile</a>
+                  </div>
+                </div>
+
+                <!-- Campus Location -->
+                <div class="contact-item">
+                  <div class="contact-icon icon-green">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
+                  <div class="contact-item-info">
+                    <span class="contact-item-label">Campus Location</span>
+                    <span class="contact-item-value static">Sanjay Godawat University, Kolhapur, Maharashtra, India</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Interactive Contact Form -->
+          <div class="contact-form-column">
+            <div class="card form-card">
+              <h3 class="form-title">Send a Direct Message</h3>
+              <p class="form-subtitle">
+                Have a question or want to collaborate? Fill out the details below.
+              </p>
+
+              <!-- Honest Demo Banner -->
+              <div class="form-mode-banner">
+                <span class="mode-tag">Demo Form</span>
+                <span class="mode-text">This form verifies details locally. For direct inquiries, click the email address on the left.</span>
+              </div>
+
+              <!-- BEGINNER NOTE: This form has client-side validation built-in. 
+                   To receive real emails to your inbox for free, you can connect it 
+                   to Formspree.io or EmailJS (explained in README.md) -->
+              <form class="contact-form" id="contactForm" novalidate>
+                
+                <div class="form-group">
+                  <label for="userName" class="form-label">Your Name</label>
+                  <input type="text" id="userName" name="name" class="form-input" placeholder="e.g. John Doe" required autocomplete="name">
+                  <span class="field-error" id="nameError" aria-live="polite"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="userEmail" class="form-label">Your Email</label>
+                  <input type="email" id="userEmail" name="email" class="form-input" placeholder="e.g. john@example.com" required autocomplete="email">
+                  <span class="field-error" id="emailError" aria-live="polite"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="userSubject" class="form-label">Subject</label>
+                  <input type="text" id="userSubject" name="subject" class="form-input" placeholder="e.g. Student collaboration or AI discussion" required>
+                  <span class="field-error" id="subjectError" aria-live="polite"></span>
+                </div>
+
+                <div class="form-group">
+                  <label for="userMessage" class="form-label">Message</label>
+                  <textarea id="userMessage" name="message" class="form-textarea" rows="4" placeholder="Write your message here..." required></textarea>
+                  <span class="field-error" id="messageError" aria-live="polite"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block" id="formSubmitBtn">
+                  <span>Validate &amp; Send</span>
+                  <svg class="btn-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+
+                <div class="form-alert" id="formAlert" role="alert" aria-live="assertive" hidden></div>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================================================================= -->
+  <!-- 8. FOOTER                                                         -->
+  <!-- ================================================================= -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <a href="#home" class="logo footer-logo">
+          <span class="logo-symbol">&lt;AI.DS/&gt;</span>
+          <span class="logo-text">Student<span class="gradient-text">.Portfolio</span></span>
+        </a>
+        <p class="footer-sub">
+          First-Year B.Tech Student in Artificial Intelligence &amp; Data Science<br>
+          Sanjay Godawat University, Kolhapur, Maharashtra, India.
+        </p>
+      </div>
+
+      <div class="footer-center">
+        <ul class="footer-nav" role="list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#learning">Learning Journey</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-right">
+        <!-- Copyright Notice -->
+        <p class="copyright-text">
+          &copy; <span id="currentYear">2026</span> Student Portfolio. All rights reserved.
+        </p>
+        <p class="footer-note">
+          Designed with dark navy &amp; electric-blue gradients.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top" id="backToTopBtn" aria-label="Back to top of page" title="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- Toast Notification element for copy email & form actions -->
+  <div class="toast-notification" id="toastNotification" role="status" aria-live="polite" hidden></div>
+
+  <!-- JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
