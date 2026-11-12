@@ -1,14 +1,15 @@
-# 🎓 Student Portfolio - B.Tech AI & Data Science
+# 🎓 Kothamale Shruthi | Portfolio - B.Tech AI & Data Science
 ### Sanjay Godawat University, Kolhapur, Maharashtra, India
 
-A modern, responsive developer portfolio website designed specifically for a **first-year B.Tech Artificial Intelligence and Data Science (AI & DS)** student.
+A modern, responsive developer portfolio website for **Kothamale Shruthi**, a **first-year B.Tech Artificial Intelligence and Data Science (AI & DS)** student at **Sanjay Godawat University, Kolhapur, Maharashtra**.
 
 ---
 
 ## 🌟 Key Features
 - **Aesthetic**: Deep dark navy background (`#070B19`) with purple (`#A855F7`) and electric-blue (`#38BDF8`) neon gradients.
 - **Glassmorphism & Glow Effects**: Semi-transparent frosted glass cards, subtle neon glows, and smooth hover micro-animations.
-- **Abstract Tech Hero**: Features a multi-ring glowing AI orb and floating status badges—no personal photo required.
+- **Personalized Hero Visual**: Features your circular profile photo (`profile.jpg`) framed with subtle purple and electric-blue glowing borders, rotating orbital rings, and floating status badges.
+- **Direct GitHub Integration**: Dedicated interactive buttons and links connecting to [`github.com/shruthi-cmyk`](https://github.com/shruthi-cmyk) in the navbar, hero section, contact section, and footer.
 - **Fully Responsive**: Adapts seamlessly to smartphones, tablets, and laptops.
 - **Accessible & Clean**: High contrast ratios (WCAG AA), keyboard navigation support, and semantic HTML5.
 - **Beginner-Friendly**: Zero complex build systems; pure HTML, CSS, and Vanilla JavaScript with helpful inline comments.
@@ -21,7 +22,8 @@ student-portfolio/
 │
 ├── index.html     # Semantic page structure, text, links, and all content sections
 ├── style.css      # Design tokens, gradients, animations, glassmorphism, responsive styles
-├── script.js     # Mobile navigation, active section highlighting, project filtering, form validation
+├── script.js      # Mobile navigation, active section highlighting, form validation
+├── profile.jpg    # Your circular profile photo in the hero section
 └── README.md      # Beginner guide on running and customizing your portfolio
 ```
 
@@ -53,16 +55,13 @@ You can run this website on your computer in any of the following three ways:
 
 ## ✏️ How to Customize Your Portfolio
 
-### 1. Change Your Name & Header Logo
-- Open `index.html`.
-- Line 36: Look for `<span class="logo-text">Student<span class="gradient-text">.Portfolio</span></span>`.
-- Replace `Student` with your first name (e.g., `Jagdish<span class="gradient-text">.AI</span>`).
+### 1. Your Name & Header Logo
+- Configured as **Kothamale Shruthi** (`<span class="logo-text">Shruthi<span class="gradient-text">.Portfolio</span></span>`).
 
-### 2. Update Your Contact Info (Email, GitHub, LinkedIn)
-- Open `index.html` and scroll down to `<!-- 7. CONTACT SECTION -->`.
-- **Email**: Replace `your.email@example.com` with your college or personal email address.
-- **GitHub**: Replace `https://github.com/your-username` with your actual GitHub profile URL.
-- **LinkedIn**: Replace `https://linkedin.com/in/your-profile` with your LinkedIn profile link.
+### 2. Contact Information
+- **Email**: Configured to [`shruthikothamale@gmail.com`](mailto:shruthikothamale@gmail.com).
+- **GitHub**: Configured to [`https://github.com/shruthi-cmyk`](https://github.com/shruthi-cmyk).
+- **LinkedIn**: Configured to [`https://www.linkedin.com/in/kothamale-shruthi`](https://www.linkedin.com/in/kothamale-shruthi).
 
 ### 3. Adding Real Projects Later ("My Projects Journey")
 - Scroll to `<!-- 5. MY PROJECTS JOURNEY SECTION -->` in `index.html`.

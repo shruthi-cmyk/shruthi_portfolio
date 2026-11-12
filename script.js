@@ -202,7 +202,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (copyEmailBtn) {
     copyEmailBtn.addEventListener('click', async () => {
       const emailLink = document.getElementById('emailLink');
-      const emailToCopy = emailLink ? emailLink.textContent.trim() : 'your.email@example.com';
+      const emailToCopy = emailLink ? emailLink.textContent.trim() : 'shruthikothamale@gmail.com';
 
       try {
         if (navigator.clipboard && window.isSecureContext) {
@@ -317,7 +317,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const enteredMessage = messageInput.value.trim();
 
         const emailLink = document.getElementById('emailLink');
-        const targetEmail = emailLink ? emailLink.textContent.trim() : 'your.email@example.com';
+        const targetEmail = emailLink ? emailLink.textContent.trim() : 'shruthikothamale@gmail.com';
 
         // Construct a direct mailto URL so the user can send the message via their email client
         const mailtoUrl = `mailto:${encodeURIComponent(targetEmail)}?subject=${encodeURIComponent(enteredSubject)}&body=${encodeURIComponent('Hello,\n\nName: ' + enteredName + '\nEmail: ' + enteredEmail + '\n\nMessage:\n' + enteredMessage)}`;

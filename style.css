@@ -671,7 +671,7 @@ textarea {
 }
 
 /* --------------------------------------------------------------------------
-   8. HERO ABSTRACT VISUAL (No Photo: Glowing AI Orb & Badges)
+   8. HERO PROFILE VISUAL (Circular Photo with Glowing Purple & Blue Border)
    -------------------------------------------------------------------------- */
 .hero-visual {
   position: relative;
@@ -687,6 +687,95 @@ textarea {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Circular Profile Photo Frame with Glowing Purple & Blue Border */
+.hero-profile-frame {
+  position: relative;
+  z-index: 2;
+  width: 240px;
+  height: 240px;
+  min-width: 240px;
+  min-height: 240px;
+  border-radius: 50%;
+  padding: 4px;
+  background: linear-gradient(135deg, var(--electric-blue) 0%, #818CF8 50%, var(--neon-purple) 100%);
+  box-shadow:
+    0 0 25px rgba(56, 189, 248, 0.45),
+    0 0 45px rgba(168, 85, 247, 0.4),
+    0 10px 30px rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  flex-shrink: 0;
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.hero-profile-frame:hover {
+  transform: scale(1.03);
+  box-shadow:
+    0 0 35px rgba(56, 189, 248, 0.65),
+    0 0 60px rgba(168, 85, 247, 0.55),
+    0 12px 35px rgba(0, 0, 0, 0.7);
+}
+
+.hero-profile-img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  border: 3.5px solid var(--bg-deep);
+}
+
+.profile-glow-aura {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(168, 85, 247, 0.32) 0%, rgba(56, 189, 248, 0.22) 50%, transparent 75%);
+  filter: blur(28px);
+  z-index: 1;
+  pointer-events: none;
+  animation: orbPulse 6s ease-in-out infinite alternate;
+}
+
+.profile-status-pill {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(7, 11, 25, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(56, 189, 248, 0.4);
+  border-radius: var(--radius-full);
+  padding: 0.35rem 0.85rem;
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-main);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  z-index: 4;
+  white-space: nowrap;
+}
+
+.status-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: var(--emerald-green);
+  box-shadow: 0 0 8px var(--emerald-green);
 }
 
 .orb-core {
@@ -2164,6 +2253,23 @@ textarea {
     height: 290px;
   }
 
+  .hero-profile-frame {
+    width: 190px;
+    height: 190px;
+    min-width: 190px;
+    min-height: 190px;
+  }
+
+  .profile-glow-aura {
+    width: 200px;
+    height: 200px;
+  }
+
+  .profile-status-pill {
+    bottom: 20px;
+    font-size: 0.72rem;
+  }
+
   .orb-core {
     width: 150px;
     height: 150px;
@@ -2236,6 +2342,24 @@ textarea {
   .visual-orb-container {
     width: 240px;
     height: 240px;
+  }
+
+  .hero-profile-frame {
+    width: 160px;
+    height: 160px;
+    min-width: 160px;
+    min-height: 160px;
+  }
+
+  .profile-glow-aura {
+    width: 170px;
+    height: 170px;
+  }
+
+  .profile-status-pill {
+    font-size: 0.6875rem;
+    padding: 0.25rem 0.65rem;
+    bottom: 12px;
   }
 
   .orb-core {
